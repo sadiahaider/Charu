@@ -355,6 +355,7 @@ class Background extends JPanel //for changing backgound class
 		g.fillRect(0,0, width, height);
 	}
 }
+//for progressbar
 class CircularProgress extends BasicProgressBarUI {
   @Override public Dimension getPreferredSize(JComponent c) {
     Dimension d = super.getPreferredSize(c);
